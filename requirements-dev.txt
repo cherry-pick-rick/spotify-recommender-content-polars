@@ -1,0 +1,3 @@
+-r requirements.txt  # includes the main requirements
+pytest
+pytest-mock
