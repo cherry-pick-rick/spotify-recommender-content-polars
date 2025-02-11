@@ -16,15 +16,13 @@ source .venv/bin/activate  # Unix/macOS
 # Install dependencies
 uv pip install -r requirements.txt
 
-# Install development dependencies
-uv pip install -r requirements-dev.txt
 ```
 
 ## Running Tests
 
 ```bash
-# Install test dependencies
-pip install pytest pytest-mock
+# Install development dependencies
+uv pip install -r requirements-dev.txt
 
 # Run all tests
 pytest tests/
